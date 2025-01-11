@@ -17,7 +17,7 @@ body{
   margin-left: 80px;
 }
 .header{
-  max-height: 100hv;
+  max-height: 999px;
   max-width: 1920px;
   margin: 0px;
   padding:10px;
@@ -75,7 +75,7 @@ margin:10px;
   padding: 5px 5px;
   background-color: #FEFCFB;
   margin: 10px 30px; 
- 
+ align-content: center;
 
 } 
 .header-left h1{
@@ -105,16 +105,16 @@ font-weight: 100px;
   position:relative;
   background-color: #FFFFFF;
   border:none;
+  border-radius: 10px;
   justify-content: space-evenly;
   width: 841px;
   height: 124px;
+  left:130px;
+  align-content: center;
   }
 .header-box{
   display: flex;
   position:relative;
-  background-color: #FFFFFF;
-  border:none;
-  justify-content: space-evenly;
   width: 580px;
   height: 100px;
   gap:50px;
@@ -123,7 +123,7 @@ font-weight: 100px;
 .header-box1{
   align-items: center;
   position: relative;
-  right:550px;
+  right:600px;
   max-height: 200px;
   display:inline-flex;
   flex-wrap: wrap;
@@ -133,7 +133,7 @@ margin-right:20px;
 }
 .explore{
   position:absolute;
-  right:200 px;
+  right:100 px;
   top:50px;
 }
 .session1{
@@ -161,7 +161,7 @@ margin-right:20px;
    
 }
 .session1-div2{
-  background-color: #FFF8F5;
+  background-color: #FFFFFF;
   max-width: 370px;
   max-height: 278px;
   margin: 20px;
@@ -206,44 +206,46 @@ margin-right:20px;
 .session3{
   background-color: #FEFCFB;
   width: 1170px;
-  height: 100vh;
+  height: 653px;
   margin-right: 0px;
-  position: relative;
   
+  }
+.session3-div{
+  position: relative;
+  bottom:125px;
+  left:450px;
 }
 .session3 h1{
-  padding: 0px;
-  margin: 0px;
   text-align: center;
   line-height: 25px;
   position: absolute;
-  bottom:750px;
-  right:200px;
+ 
 }
 .session3 p{
   text-align: center;
-  padding: 0px;
-  margin: 10px;
   line-height: 25px;
+  left:50px;
+}
+.session3-div1{
+  margin-bottom: 0px;
 }
 .session3-div2{
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: flex-start;
-  /* gap:40px; */
+  width: 369;
+  height: 327;
+  gap:20px;
+  align-items: left;
 }
-.session3-div3{
- /*  width: 370px;
-  height: 447px; */
-  /* display:flex; */
-  /* flex-direction: row; */
+.session3-div3 p{
+  line-height: 35px;
 }
+
 .session4{
   width: 1150px;
-  height: 356px;
+  height: 596px;
   background-color: #F7F8FC;
   margin-right: 40px;
+  align-content: center;
 }
 .session4-div1{
   display: flex;
@@ -252,8 +254,8 @@ margin-right:20px;
   align-items: center;
 }
 .session4-div2 h1{
-  padding: 20px;
-  margin: 10px;
+  padding: 10px;
+  margin: 0px;
   text-align: center;
 }
 .session4-div2 p{
@@ -279,10 +281,11 @@ left:0px;
 
 .session5{
   width: 1200px;
-  height: 100hv;
+  height: 805px;
   background-color: #FEFCFB;
   margin: 5px;
   padding: 10px;
+  align-content: center;
 }
 
 .session5-div1{
@@ -339,15 +342,15 @@ left:0px;
   background-color: #FD8D3A;
 }
 .footer{
-  margin:10px;
+  margin-top:30px;
   padding:0px;
   /* display: flex;
   flex-direction: row;
   justify-content: left; */
 }
-/* .footer-div2{
-  position: relative;
-} */
+.footer-div2{
+  line-height: 35px;
+} 
 .footer-div3{
   display: flex;
   flex-direction: row;
@@ -355,7 +358,7 @@ left:0px;
   margin-bottom: 0px;
   position:relative;
   left:700px;
-  bottom:100px;
+  bottom:170px;
   text-decoration: none;
   list-style: none;
 }
@@ -365,7 +368,7 @@ left:0px;
   top:auto; */
   text-decoration: none;
   list-style: none;
-  line-height: 25px;
+  line-height: 35px;
   right:400px;
 }
 .amount1{
